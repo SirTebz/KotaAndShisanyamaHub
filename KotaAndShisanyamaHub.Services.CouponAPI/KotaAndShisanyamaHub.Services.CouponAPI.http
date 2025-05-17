@@ -1,0 +1,6 @@
+@KotaAndShisanyamaHub.Services.CouponAPI_HostAddress = http://localhost:5259
+
+GET {{KotaAndShisanyamaHub.Services.CouponAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
