@@ -47,23 +47,13 @@ namespace KotaAndShisanyamaHub.Services.CouponAPI.Controllers
                 Coupon obj = _db.Coupons.First(u => u.CouponId == id);
                 _response.Result = _mapper.Map<CouponDto>(obj);
                 
-                //Coupon couponDto = new Coupon()
-                //{
-                //    CouponId = obj.CouponId,
-                //    CouponCode = obj.CouponCode,
-                //    DiscountAmount = obj.DiscountAmount,
-                //    MinAmount = obj.MinAmount
-                //};
-                //_response.Result = obj;
-               
-                
             }
             catch (Exception ex)
             {
                 _response.IsSuccess = false;
                 _response.Message = ex.Message;
             }
-            return _response;//
+            return _response;
         }
 
         [HttpGet]
@@ -72,14 +62,8 @@ namespace KotaAndShisanyamaHub.Services.CouponAPI.Controllers
         {
             try
             {
-                Coupon obj = _db.Coupons.FirstOrDefault(u => u.CouponCode.ToLower() == code.ToLower());
-                if (obj == null)
-                {
-                    _response.IsSuccess = false;
-                }
+                Coupon obj = _db.Coupons.First(u => u.CouponCode.ToLower() == code.ToLower());
                 _response.Result = _mapper.Map<CouponDto>(obj);
-
-
             }
             catch (Exception ex)
             {
@@ -97,6 +81,7 @@ namespace KotaAndShisanyamaHub.Services.CouponAPI.Controllers
                 Coupon obj = _mapper.Map<Coupon>(couponDto);
                 _db.Coupons.Add(obj);
                 _db.SaveChanges();
+
                 _response.Result = _mapper.Map<CouponDto>(obj);
             }
             catch (Exception ex)
@@ -115,6 +100,7 @@ namespace KotaAndShisanyamaHub.Services.CouponAPI.Controllers
                 Coupon obj = _mapper.Map<Coupon>(couponDto);
                 _db.Coupons.Update(obj);
                 _db.SaveChanges();
+
                 _response.Result = _mapper.Map<CouponDto>(obj);
             }
             catch (Exception ex)

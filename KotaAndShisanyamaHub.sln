@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35828.75 d17.13
+VisualStudioVersion = 17.13.35828.75
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{A5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KotaAndShisanyamaHub.Services.CouponAPI", "KotaAndShisanyamaHub.Services.CouponAPI\KotaAndShisanyamaHub.Services.CouponAPI.csproj", "{5E281FAF-2CE7-4DB0-BD69-9F3DA702945F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KotaAndShisanyamaHub.Web", "KotaAndShisanyamaHub.Web\KotaAndShisanyamaHub.Web.csproj", "{2EAC8323-5956-4DA5-9D00-2CC7E887CD1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +25,17 @@ Global
 		{5E281FAF-2CE7-4DB0-BD69-9F3DA702945F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E281FAF-2CE7-4DB0-BD69-9F3DA702945F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E281FAF-2CE7-4DB0-BD69-9F3DA702945F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EAC8323-5956-4DA5-9D00-2CC7E887CD1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EAC8323-5956-4DA5-9D00-2CC7E887CD1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EAC8323-5956-4DA5-9D00-2CC7E887CD1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EAC8323-5956-4DA5-9D00-2CC7E887CD1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5E281FAF-2CE7-4DB0-BD69-9F3DA702945F} = {A5487080-EC53-4B8B-942D-DBAE99E4A482}
+		{2EAC8323-5956-4DA5-9D00-2CC7E887CD1A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5AB61AC9-E650-4B04-A7BE-12FD9A9E6260}

@@ -12,8 +12,6 @@ namespace KotaAndShisanyamaHub.Services.CouponAPI
             {
                 config.CreateMap<CouponDto, Coupon>();
                 config.CreateMap<Coupon, CouponDto>();
-                //config.CreateMap<Models.Coupon, Models.Dto.CouponDto>().ReverseMap();
-                //config.CreateMap<Models.Dto.CouponDto, Models.Coupon>().ReverseMap();
             });
             return mappingConfig;
         }
