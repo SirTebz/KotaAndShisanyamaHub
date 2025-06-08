@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KotaAndShisanyamaHub.Servic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KotaAndShisanyamaHub.Web", "KotaAndShisanyamaHub.Web\KotaAndShisanyamaHub.Web.csproj", "{2EAC8323-5956-4DA5-9D00-2CC7E887CD1A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KotaAndShisanyamaHub.Services.AuthAPI", "KotaAndShisanyamaHub.Services.AuthAPI\KotaAndShisanyamaHub.Services.AuthAPI.csproj", "{27E8B00B-7112-4C90-B99C-57B679547A48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{2EAC8323-5956-4DA5-9D00-2CC7E887CD1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EAC8323-5956-4DA5-9D00-2CC7E887CD1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EAC8323-5956-4DA5-9D00-2CC7E887CD1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27E8B00B-7112-4C90-B99C-57B679547A48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E8B00B-7112-4C90-B99C-57B679547A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27E8B00B-7112-4C90-B99C-57B679547A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27E8B00B-7112-4C90-B99C-57B679547A48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5E281FAF-2CE7-4DB0-BD69-9F3DA702945F} = {A5487080-EC53-4B8B-942D-DBAE99E4A482}
 		{2EAC8323-5956-4DA5-9D00-2CC7E887CD1A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{27E8B00B-7112-4C90-B99C-57B679547A48} = {A5487080-EC53-4B8B-942D-DBAE99E4A482}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5AB61AC9-E650-4B04-A7BE-12FD9A9E6260}
