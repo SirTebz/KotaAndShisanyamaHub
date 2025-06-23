@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KotaAndShisanyamaHub.Servic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KotaAndShisanyamaHub.Services.ProductAPI", "KotaAndShisanyamaHub.Services.ProductAPI\KotaAndShisanyamaHub.Services.ProductAPI.csproj", "{3DE58872-B1E7-4EB6-952D-A7BD898841D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KotaAndShisanyamaHub.Services.ShoppingCartAPI", "KotaAndShisanyamaHub.Services.ShoppingCartAPI\KotaAndShisanyamaHub.Services.ShoppingCartAPI.csproj", "{31C1AF37-5366-4DE1-B12D-9FEEAF12AD03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{3DE58872-B1E7-4EB6-952D-A7BD898841D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DE58872-B1E7-4EB6-952D-A7BD898841D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DE58872-B1E7-4EB6-952D-A7BD898841D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31C1AF37-5366-4DE1-B12D-9FEEAF12AD03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31C1AF37-5366-4DE1-B12D-9FEEAF12AD03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31C1AF37-5366-4DE1-B12D-9FEEAF12AD03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31C1AF37-5366-4DE1-B12D-9FEEAF12AD03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +56,7 @@ Global
 		{2EAC8323-5956-4DA5-9D00-2CC7E887CD1A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{27E8B00B-7112-4C90-B99C-57B679547A48} = {A5487080-EC53-4B8B-942D-DBAE99E4A482}
 		{3DE58872-B1E7-4EB6-952D-A7BD898841D5} = {A5487080-EC53-4B8B-942D-DBAE99E4A482}
+		{31C1AF37-5366-4DE1-B12D-9FEEAF12AD03} = {A5487080-EC53-4B8B-942D-DBAE99E4A482}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5AB61AC9-E650-4B04-A7BE-12FD9A9E6260}

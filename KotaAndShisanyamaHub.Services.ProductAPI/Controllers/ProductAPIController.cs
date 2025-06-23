@@ -3,13 +3,14 @@ using KotaAndShisanyamaHub.Services.ProductAPI.Data;
 using KotaAndShisanyamaHub.Services.ProductAPI.Models;
 using KotaAndShisanyamaHub.Services.ProductAPI.Models.Dto;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace KotaAndShisanyamaHub.Services.ProductAPI.Controllers
 {
     [Route("api/product")]
     [ApiController]
-    public class ProductAPIController : Controller
+    public class ProductAPIController : ControllerBase
     {
         private readonly AppDbContext _db;
         private ResponseDto _response;

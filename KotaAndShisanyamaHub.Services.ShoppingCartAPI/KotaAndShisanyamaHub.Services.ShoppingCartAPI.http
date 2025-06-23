@@ -1,0 +1,6 @@
+@KotaAndShisanyamaHub.Services.ShoppingCartAPI_HostAddress = http://localhost:5227
+
+GET {{KotaAndShisanyamaHub.Services.ShoppingCartAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
