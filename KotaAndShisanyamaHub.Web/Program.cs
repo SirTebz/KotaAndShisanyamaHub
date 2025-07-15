@@ -13,6 +13,7 @@ builder.Services.AddHttpClient();
 
 builder.Services.AddHttpClient<IProductService, ProductService>();
 builder.Services.AddHttpClient<ICouponService, CouponService>();
+builder.Services.AddHttpClient<ICartService, CartService>();
 builder.Services.AddHttpClient<IAuthService, AuthService>();
 
 
@@ -24,6 +25,7 @@ SD.ProductAPIBase = builder.Configuration["ServiceUrls:ProductAPI"];
 builder.Services.AddScoped<ITokenProvider, TokenProvider>();
 builder.Services.AddScoped<IBaseService, BaseService>();
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<ICartService, CartService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<ICouponService, CouponService>();
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
